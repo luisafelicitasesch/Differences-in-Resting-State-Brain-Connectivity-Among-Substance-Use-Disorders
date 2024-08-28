@@ -1,7 +1,7 @@
 %% Loading Data and Standardizing Matrices
 
 % Define the directory containing the data files
-dataDir = 'C:\Users\luisa\MATLAB\Projects\SysMedSUDs\new\alldata';
+dataDir = %add path to the data;
 
 % Get a list of all .mat files in the directory
 dataFiles = dir(fullfile(dataDir, '*.mat'));
