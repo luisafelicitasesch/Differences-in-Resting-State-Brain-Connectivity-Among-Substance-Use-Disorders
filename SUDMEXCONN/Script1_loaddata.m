@@ -1,6 +1,6 @@
 %% Load and Standardize Correlation Matrices
 % Define the directory containing the data files
-dataDir = 'C:\Users\luisa\MATLAB\Projects\sudmex_conn\corrmatfinal';
+dataDir = % add data directory;
 
 % Get a list of all .mat files in the directory
 dataFiles = dir(fullfile(dataDir, '*.mat'));
@@ -63,7 +63,7 @@ for i = 1:numParticipants
 end
 
 % Save the data in the specified output file
-outputFile = 'C:\Users\luisa\MATLAB\Projects\sudmex_conn\allCorrelationMatrices_new.mat';
+outputFile = % add path to save output file;
 save(outputFile, 'allCorrMatrices', 'participantNames');
 disp('All data saved successfully.');
 

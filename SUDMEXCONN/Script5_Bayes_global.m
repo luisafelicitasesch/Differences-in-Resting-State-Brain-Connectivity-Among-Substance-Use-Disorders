@@ -1,9 +1,9 @@
 % Setup paths
-path_BCT = 'C:\Users\luisa\MATLAB\packages\BCT';
-path_ComAlg = 'C:\Users\luisa\MATLAB\packages\communityalg-master';
+path_BCT = % add path to toolbox;
+path_ComAlg = % add path to toolbox;
 addpath(genpath(path_BCT));
 addpath(genpath(path_ComAlg));
-path_bayes = 'C:\Users\luisa\MATLAB\packages\bayesFactor-master';
+path_bayes = % add path to toolbox;
 addpath(genpath(path_bayes))
 
 % Define global measures and corresponding data variables

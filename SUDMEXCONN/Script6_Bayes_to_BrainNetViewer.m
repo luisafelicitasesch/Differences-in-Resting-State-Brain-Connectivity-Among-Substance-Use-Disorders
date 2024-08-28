@@ -1,6 +1,6 @@
 % Load the Brainnetome Atlas subregion data
 % Adjust the path to where you have saved the Excel file
-filename = 'C:\Users\luisa\MATLAB\Projects\SysMedSUDs\Atlas\BNA_subregions.xlsx';
+filename = % add path to BNA subregions file from the Brainnetome website;
 % Read the Excel file
 T = readtable(filename);
 

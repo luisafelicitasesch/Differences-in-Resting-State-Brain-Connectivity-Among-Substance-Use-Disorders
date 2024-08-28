@@ -1,5 +1,5 @@
 %%
-path_bayes = 'C:\Users\luisa\MATLAB\packages\bayesFactor-master';
+path_bayes = %add path to toolbox;
 addpath(genpath(path_bayes));
 
 % Potentially exclude GraphVar from path

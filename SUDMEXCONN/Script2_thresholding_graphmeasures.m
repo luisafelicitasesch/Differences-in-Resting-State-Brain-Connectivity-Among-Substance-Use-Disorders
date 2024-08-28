@@ -1,8 +1,8 @@
 %% Load packages and data
 % Setup paths
-path_BCT = 'C:\Users\luisa\MATLAB\packages\BCT';
-path_GraphVar = 'C:\Users\luisa\MATLAB\packages\GraphVar_2.03a';
-path_ComAlg = 'C:\Users\luisa\MATLAB\packages\communityalg-master';
+path_BCT = % add path to toolbox;
+path_GraphVar = % add path to toolbox;
+path_ComAlg = % add path to toolbox;
 addpath(genpath(path_BCT));
 addpath(genpath(path_GraphVar));
 addpath(genpath(path_ComAlg));
@@ -41,7 +41,7 @@ for k = 1:numParticipants
 end
 
 % Save the thresholded dataset
-outputFile = 'C:\Users\luisa\MATLAB\Projects\sudmex_conn\Scripts\thresholded_allCorrMatrices.mat';
+outputFile = % add path to saving location;
 save(outputFile, 'thresholded_dataset');
 disp('All thresholded data saved successfully.');
 

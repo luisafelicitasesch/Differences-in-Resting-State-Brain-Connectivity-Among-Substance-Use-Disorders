@@ -2,7 +2,7 @@ which nanvar -all
 % remove path for GraphVar first
 
 %%
-path_bayes = 'C:\Users\luisa\MATLAB\packages\bayesFactor-master';
+path_bayes = % add path to toolbox;
 addpath(genpath(path_bayes));
 
 %%
