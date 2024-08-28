@@ -63,7 +63,7 @@ for i = 1:numParticipants
 end
 
 % Save the data in the specified output file
-outputFile = 'C:\Users\luisa\MATLAB\Projects\sudmex_conn\allCorrelationMatrices_new.mat';
+outputFile = % add path to save output file;
 save(outputFile, 'allCorrMatrices', 'participantNames');
 disp('All data saved successfully.');
 
