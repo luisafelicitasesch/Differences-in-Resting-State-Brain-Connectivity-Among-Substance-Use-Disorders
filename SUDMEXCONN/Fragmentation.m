@@ -1,4 +1,4 @@
-graphvar_path = "C:\Users\luisa\MATLAB\packages\GraphVar_2.03a"
+graphvar_path = % add path to toolbox
 addpath(genpath(graphvar_path))
 
 %% Initialize a Structure and Loop Through Participants for Fragmentation Analysis
