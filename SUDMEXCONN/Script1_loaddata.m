@@ -1,6 +1,6 @@
 %% Load and Standardize Correlation Matrices
 % Define the directory containing the data files
-dataDir = 'C:\Users\luisa\MATLAB\Projects\sudmex_conn\corrmatfinal';
+dataDir = % add data directory;
 
 % Get a list of all .mat files in the directory
 dataFiles = dir(fullfile(dataDir, '*.mat'));
